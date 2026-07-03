@@ -11,7 +11,7 @@ def binary_search(arr, target):
             return mid
 
         elif arr[mid] < target:
-            start = mid +1
+            start = mid + 1
         else:
             end = mid - 1
     return -1
